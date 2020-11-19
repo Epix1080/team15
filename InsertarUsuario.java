@@ -28,8 +28,8 @@ public class InsertarUsuario extends JFrame {
 	private JPanel contentPane;
 	private String base = "usuarios";
 	private final String URL = "jdbc:mysql://localhost:3306/" + base + "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-	private final String USERNAME = "root";
-	private final String PASSWORD = "Metnet1973!";
+	private final String USERNAME = "";
+	private final String PASSWORD = "";
 	public Connection con = null;
 
 	public Connection getConnection() {
